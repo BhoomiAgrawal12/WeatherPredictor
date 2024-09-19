@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding:0;
+    font-family: "Poppins", sans-serif;
+}
+.weather{
+    /* border: 2px solid black; */
+    border-radius: 40px;
+    height: 100vh;
+    width: 60%;
+    margin: auto;
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+display: flex;
+    /* justify-content:space-between; */
+    flex-direction: column;
+    align-items:center;
+
+}
+.container{
+height: 100px;
+width: 100%;
+    margin-top: 20px;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+}
+#search{
+   margin: 20px 10px;
+    padding:0 8px;
+    height: 50px;
+    font-size: 1.5rem;
+    width: 75%;
+    border-radius:40px;
+    border: 2px solid lightgrey;
+}
+#btn{
+    margin-right:10px ;
+    margin-top: 9px;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    border: 2px solid lightgrey;
+    background-color: whitesmoke;
+    cursor: pointer;
+}
+#btn i{
+   font-size: 2rem;
+}
+.image{
+    height: 250px;
+    margin-top: 0px;
+}
+.image img{
+    /* border: 2px solid black; */
+   height: 300px;
+}
+.temp{
+    /* border: 2px solid black; */
+    font-size: 2.5rem;
+    margin-top: 10px;
+    color: white;
+}
+.box{
+    /* border: 2px solid black; */
+    display:flex;
+    justify-content: space-between;
+   margin-bottom: 0px;
+    height: 80px;
+    padding-bottom: 0px;
+    width: 90%;
+    padding-left: 20px;
+    padding-top: 0px;
+padding-right: 20px;
+}
+.humid, .wind{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 2px solid black; */
+    width: 200px;
+    height: 60px;
+    font-size: large;
+    padding-top:8px;
+   
+}
+.humid img, .wind img{
+    padding-right: 10px;
+}
+.name{
+    /* border: 2px solid black; */
+    height: 80px;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    padding-bottom: 0px;
+    padding-top: 15px;
+    color: white;
+}
+.helo{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.error{
+   text-align: left; 
+    font-size: 19px;
+    margin-top: 10px;
+    margin-left: 30px;
+    width: 100%;
+    color: white;
+    display: none;
+}
+.condition{
+font-weight: 300;
+color: white;
+padding-top:20px;
+}
